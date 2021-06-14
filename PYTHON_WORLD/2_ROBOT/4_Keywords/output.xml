@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.2 on win32)" generated="20210612 23:10:46.809" rpa="false" schemaversion="2">
+<suite id="s1" name="2 Keyword arguments" source="C:\Users\Nithin\PycharmProjects\pythonProject\PYTHON_WORLD\2_ROBOT\4_Keywords\2_Keyword_arguments.robot">
+<test id="s1-t1" name="testcase:1">
+<kw name="Addition">
+<arg>B=10</arg>
+<arg>A=6</arg>
+<kw name="Log" library="BuiltIn">
+<arg>A value is :: ${A}</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210612 23:10:46.840" level="WARN">A value is :: 6</msg>
+<status status="PASS" starttime="20210612 23:10:46.840" endtime="20210612 23:10:46.840"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>B value is :: ${B}</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210612 23:10:46.840" level="WARN">B value is :: 10</msg>
+<status status="PASS" starttime="20210612 23:10:46.840" endtime="20210612 23:10:46.840"/>
+</kw>
+<status status="PASS" starttime="20210612 23:10:46.840" endtime="20210612 23:10:46.840"/>
+</kw>
+<status status="PASS" starttime="20210612 23:10:46.840" endtime="20210612 23:10:46.840"/>
+</test>
+<doc>To know how to create keyword with default arguments</doc>
+<status status="PASS" starttime="20210612 23:10:46.809" endtime="20210612 23:10:46.840"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="2 Keyword arguments">2 Keyword arguments</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210612 23:10:46.840" level="WARN">A value is :: 6</msg>
+<msg timestamp="20210612 23:10:46.840" level="WARN">B value is :: 10</msg>
+</errors>
+</robot>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.2 on win32)" generated="20210612 22:55:03.392" rpa="false" schemaversion="2">
+<suite id="s1" name="If" source="C:\Users\Nithin\PycharmProjects\pythonProject\PYTHON_WORLD\6_practice\robot\if\if.robot">
+<test id="s1-t1" name="Rob">
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>2==0</arg>
+<arg>Add</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" starttime="20210612 22:55:03.423" endtime="20210612 22:55:03.423"/>
+</kw>
+<kw name="Else If" library="Reserved">
+<arg>3==3</arg>
+<arg>sub</arg>
+<msg timestamp="20210612 22:55:03.423" level="FAIL">'Else If' is a reserved keyword. It must be an upper case 'ELSE IF' and follow an opening 'IF' when used as a marker.</msg>
+<status status="FAIL" starttime="20210612 22:55:03.423" endtime="20210612 22:55:03.423"/>
+</kw>
+<kw name="Else" library="Reserved">
+<arg>last</arg>
+<status status="NOT RUN" starttime="20210612 22:55:03.423" endtime="20210612 22:55:03.423"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Test</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20210612 22:55:03.423" endtime="20210612 22:55:03.423"/>
+</kw>
+<status status="FAIL" starttime="20210612 22:55:03.423" endtime="20210612 22:55:03.423">'Else If' is a reserved keyword. It must be an upper case 'ELSE IF' and follow an opening 'IF' when used as a marker.</status>
+</test>
+<doc>statements</doc>
+<status status="FAIL" starttime="20210612 22:55:03.392" endtime="20210612 22:55:03.423"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="If">If</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

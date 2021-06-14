@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.7.9 on win32)" generated="20210531 07:59:53.104" rpa="false" schemaversion="2">
+<suite id="s1" name="3 Operating System" source="C:\Users\smellamp\OneDrive - Cisco\Documents\ONLINE_CLASS\2_ROBOT\11_Standard_Libraries\3_operating_system.robot">
+<test id="s1-t1" name="First Test Case">
+<kw name="Remove File" library="OperatingSystem">
+<arg>LOG/log_file.txt</arg>
+<doc>Removes a file with the given path.</doc>
+<msg timestamp="20210531 07:59:53.167" level="INFO" html="true">Removed file '&lt;a href="file://C:\Users\smellamp\OneDrive - Cisco\Documents\ONLINE_CLASS\2_ROBOT\11_Standard_Libraries\LOG\log_file.txt"&gt;C:\Users\smellamp\OneDrive - Cisco\Documents\ONLINE_CLASS\2_ROBOT\11_Standard_Libraries\LOG\log_file.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20210531 07:59:53.165" endtime="20210531 07:59:53.167"/>
+</kw>
+<kw name="Remove Directory" library="OperatingSystem">
+<arg>LOG</arg>
+<doc>Removes the directory pointed to by the given ``path``.</doc>
+<msg timestamp="20210531 07:59:53.169" level="INFO" html="true">Listing contents of directory '&lt;a href="file://C:\Users\smellamp\OneDrive - Cisco\Documents\ONLINE_CLASS\2_ROBOT\11_Standard_Libraries\LOG"&gt;C:\Users\smellamp\OneDrive - Cisco\Documents\ONLINE_CLASS\2_ROBOT\11_Standard_Libraries\LOG&lt;/a&gt;'.</msg>
+<msg timestamp="20210531 07:59:53.169" level="INFO" html="true">Directory '&lt;a href="file://C:\Users\smellamp\OneDrive - Cisco\Documents\ONLINE_CLASS\2_ROBOT\11_Standard_Libraries\LOG"&gt;C:\Users\smellamp\OneDrive - Cisco\Documents\ONLINE_CLASS\2_ROBOT\11_Standard_Libraries\LOG&lt;/a&gt;' is empty.</msg>
+<msg timestamp="20210531 07:59:53.170" level="INFO" html="true">Removed directory '&lt;a href="file://C:\Users\smellamp\OneDrive - Cisco\Documents\ONLINE_CLASS\2_ROBOT\11_Standard_Libraries\LOG"&gt;C:\Users\smellamp\OneDrive - Cisco\Documents\ONLINE_CLASS\2_ROBOT\11_Standard_Libraries\LOG&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20210531 07:59:53.167" endtime="20210531 07:59:53.170"/>
+</kw>
+<kw name="File Should Exist" library="OperatingSystem">
+<arg>LOG/log_file.txt</arg>
+<arg>Please create a log_file.txt</arg>
+<doc>Fails unless the given ``path`` points to an existing file.</doc>
+<msg timestamp="20210531 07:59:53.172" level="FAIL">Please create a log_file.txt</msg>
+<status status="FAIL" starttime="20210531 07:59:53.171" endtime="20210531 07:59:53.172"/>
+</kw>
+<status status="FAIL" starttime="20210531 07:59:53.165" endtime="20210531 07:59:53.173">Please create a log_file.txt</status>
+</test>
+<doc>* Enables various operating system related tasks to be performed in the system where Robot Framework is running. *</doc>
+<status status="FAIL" starttime="20210531 07:59:53.107" endtime="20210531 07:59:53.175"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="3 Operating System">3 Operating System</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,5 @@
+selecting two elements with same atributes.
+
+(xpath)[index]
+
+importing syntaxes to np++
