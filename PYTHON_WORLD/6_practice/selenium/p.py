@@ -6,11 +6,9 @@ from selenium.webdriver.support.select import Select
 
 
 driver = webdriver.Chrome()
-driver.get('http://testautomationpractice.blogspot.com/')
+driver.get('http://www.demo.guru99.com/V4/')
+driver.find_element_by_name('uid').send_keys('mngr334114')
+driver.find_element_by_name('password').send_keys('ugArEty')
+driver.find_element_by_name('btnLogin').click()
 
-ele = driver.find_element(By.ID, 'speed')
-drp = Select(ele)
-drp.select_by_visible_text('Slow')
-time.sleep(4)
-driver.close()
-
+time.sleep(10)
